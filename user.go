@@ -7,7 +7,7 @@ type User struct {
 }
 
 func (c *User) update(itemName string) {
-	fmt.Printf("Sending email to User %s for message %s\n", c.Name, itemName)
+	fmt.Printf("Sending email to User %s for message:  %s\n", c.Name, itemName)
 }
 
 func (c *User) getID() string {
